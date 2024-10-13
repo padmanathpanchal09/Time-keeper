@@ -1,11 +1,11 @@
 This project aims to create a countdown timer that accurately displays the time remaining until the end of the current year.
 
-How to setUp as brower extension:
+How to setUp as browser extension(chrome extension):
 1: first clone this repository to ur system.
 2: opens the chrome clicks the 3 dots and click on Extensions then Manage Extension.
 3: u can see there Load Unpacked click on that.
 4: select ur project's folder.
-now u good to go with ur time keeper.
+now u good to go with ur time keeper aka year reminder as background.
 
 WHY U NEED THIS:
 Basically this is an BACKGROUND TIME KEEPER EXTENSION.
