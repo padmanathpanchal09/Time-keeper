@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Year Reminder",
+    "version": "1.0.0",
+    "description": "Year Reminder Chrome Extension.",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {
+        "16": "./images/pexels.jpg",
+        "48": "./images/html-5.png"
+    }
+}

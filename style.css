@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Permanent+Marker&family=Protest+Strike&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+height: 100%;
+width: 100%;
+padding: 9rem;
+display: grid;
+grid-template-rows: repeat(3,1fr);
+background: url("./images/pexels.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border: 1.4mm ridge #99582a;
+
+}
+
+.item{
+    flex-wrap: wrap;    
+}
+
+.dateItem{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+    backdrop-filter: sepia(50%);
+    
+}
+
+.title{
+    display: grid;
+    height: 70%;
+    width: 100%;
+    font-size: 4rem;
+    color: #6b9080;
+    font-optical-sizing: auto;
+    align-items: end;
+    justify-content: center;
+    backdrop-filter: sepia(50%);
+    font-optical-sizing: auto;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 3px 2px #001219;
+    justify-items: center   
+
+}
+
+.dates{
+     width: 5rem;
+    padding: 0.4rem;
+    display: grid;
+    width: 100%;
+    align-items: end;
+    justify-content: center;
+    flex-shrink: 1;
+
+}
+.cal{
+    width: 5rem;
+    padding: 0.4rem;
+    display: grid;
+    width: 100%;
+    font-size: 4rem;
+    font-optical-sizing: auto;
+    align-items: start;
+    justify-content: center;
+    flex-shrink: 1;
+    color: white;
+    
+}
+
+.day{
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f6fff8;
+    text-shadow: 5px 3px 2px #001219;
+}
+
+.times{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    color: #fdffb6;
+    text-shadow: 5px 3px 2px #001219;
+  
+}
+
+.dates:hover{
+    background-color: #432818;
+    border-radius: 10% 30% 50% 70%;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 750px) {
+    .container{
+        height: 100%;
+        width: 100%;
+        padding: 9rem;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        background: url("./images/pexels.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: scroll;
+        
+        border: 1.4mm ridge #99582a;
+        
+        }
+
+  }
